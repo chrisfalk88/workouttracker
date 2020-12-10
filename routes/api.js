@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const { isValidObjectId } = require("mongoose");
 const db = require("../models");
 
 // Get all workouts
